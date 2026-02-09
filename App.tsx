@@ -341,7 +341,6 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#222B38]/60 to-transparent"></div>
             </div>
             
-            {/* Responsively adjusted badges */}
             <div className="absolute top-4 right-4 md:-top-8 md:-right-8 bg-[#D21E2C] text-white p-6 md:p-8 rounded-2xl md:rounded-[2rem] shadow-2xl z-20 flex flex-col items-center justify-center transform hover:scale-105 transition-transform">
               <ShieldCheck className="w-6 h-6 md:w-10 md:h-10 mb-1 md:mb-2" />
               <p className="text-xl md:text-3xl font-black">100%</p>
